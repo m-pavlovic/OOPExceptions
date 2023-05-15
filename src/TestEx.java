@@ -27,5 +27,7 @@ public class TestEx {
         } catch (FileNotFoundException e) {
             System.out.println("File not found --> " + file.getName());
         }
+        scanner.close();
     }
+
 }
